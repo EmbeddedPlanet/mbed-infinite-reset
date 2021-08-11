@@ -1,0 +1,10 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.fatal-error-auto-reboot-enabled": true,
+            "platform.crash-capture-enabled": true,
+            "platform.error-reboot-max": 10
+        }
+    }
+}
