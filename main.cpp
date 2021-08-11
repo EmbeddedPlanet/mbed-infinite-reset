@@ -26,7 +26,7 @@ extern "C" {
 void mbed_error_reboot_callback(mbed_error_ctx *error_context)
 {
     printf("resetting error count (was %d)\r\n", error_context->error_reboot_count);
-    mbed_reset_reboot_error_info();
+    mbed_reset_reboot_count();
 }
 
 }
